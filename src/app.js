@@ -16,9 +16,9 @@ console.log('handling user request',req.params);
 // })
 
 
-app.use('/',(req,res)=>{
-    res.send("hello home")
-})
+// app.use('/',(req,res)=>{
+//     res.send("hello home")
+// })
 
 app.listen(3000,()=>{
     console.log('server is running')
