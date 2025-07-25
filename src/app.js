@@ -11,9 +11,9 @@ console.log('handling user request',req.params);
 
 })
 
-// app.use('/user/data',(req,res)=>{
-//     res.send("hello data")
-// })
+app.use('/user/data',(req,res)=>{
+    res.send("hello data")
+})
 
 
 // app.use('/',(req,res)=>{
